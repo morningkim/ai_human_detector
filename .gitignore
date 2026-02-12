@@ -1,0 +1,12 @@
+# Keep repository minimal for deployment
+.gitattributes
+deploy.prototxt
+face_auto_detector.ipynb
+res10_300x300_ssd_iter_140000.caffemodel
+tes.ipynb
+update_face_roi_cell.py
+update_face_roi_cell_v2.py
+
+# Python cache
+__pycache__/
+*.pyc
