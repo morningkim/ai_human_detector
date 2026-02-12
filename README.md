@@ -75,7 +75,7 @@ ROI_POINTS_NORM = np.array(
 ## 감지 민감도 튜닝
 `auto_motion_detector.py`에서 아래 상수를 조정합니다.
 
-- `MOTION_THRESHOLD`
+- `MOTION_PIXELS_THRESHOLD`
   - 낮추면 민감도 증가(작은 움직임도 감지)
   - 높이면 오탐 감소
 - `DIFF_THRESHOLD`

@@ -10,3 +10,8 @@ update_face_roi_cell_v2.py
 # Python cache
 __pycache__/
 *.pyc
+
+# PyInstaller artifacts
+build/
+dist/
+*.spec
